@@ -8,7 +8,7 @@
 /vendor/
 /.idea
 ###< symfony/framework-bundle ###
-
+/bin/tailwindcss
 ###> symfony/asset-mapper ###
 /public/assets/
 ###< symfony/asset-mapper ###
