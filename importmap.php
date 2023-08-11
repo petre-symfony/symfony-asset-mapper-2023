@@ -18,4 +18,7 @@ return [
         'path' => 'app.js',
         'preload' => true,
     ],
+    'lodash' => [
+        'url' => 'https://cdn.jsdelivr.net/npm/lodash@4.17.21/+esm',
+    ],
 ];

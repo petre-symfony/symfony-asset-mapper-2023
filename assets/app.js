@@ -1,5 +1,5 @@
 import Vinyl from './lib/vinyl.js'
-import _ from 'https://cdn.jsdelivr.net/npm/lodash@4.17.21/+esm'
+import _ from 'lodash'
 
 const mix = new Vinyl('Awesome Mix Vol. 1', 2014);
 
