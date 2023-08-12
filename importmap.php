@@ -21,4 +21,10 @@ return [
     'lodash/camelCase' => [
         'url' => 'https://cdn.jsdelivr.net/npm/lodash@4.17.21/camelCase/+esm',
     ],
+    '@hotwired/stimulus' => [
+        'url' => 'https://cdn.jsdelivr.net/npm/@hotwired/stimulus@3.2.2/+esm',
+    ],
+    '@symfony/stimulus-bundle' => [
+        'path' => '@symfony/stimulus-bundle/loader.js',
+    ],
 ];

@@ -1,3 +1,4 @@
+import './bootstrap.js';
 import Vinyl from './lib/vinyl.js'
 import camelCase from 'lodash/camelCase'
 
