@@ -16,7 +16,7 @@ runtime:
         - pdo_pgsql
 
 relationships:
-    # DATABASE_URL
+    # DATABASE_URLq
     database: 'database:postgresql'
 
 #variables:
