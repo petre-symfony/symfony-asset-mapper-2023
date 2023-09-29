@@ -14,7 +14,10 @@ runtime:
         - ctype
         - iconv
         - pdo_pgsql
-        
+
+relationships:
+    # DATABASE_URL
+    database: 'database:postgresql'
 
 #variables:
 #    php:
