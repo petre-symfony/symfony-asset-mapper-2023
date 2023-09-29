@@ -5,6 +5,13 @@
 	<link rel="stylesheet" href="{{ asset('styles/admin.css') }}">
 {% endblock %}
 
+{% block javascripts %}
+	{{ parent() }}
+	<script type="module">
+		import '{{ asset('admin.js') }}'
+	</script>
+{% endblock %}
+
 {% block body %}
 	<div class="admin-wrapper">
 		<h1 class="text-xl font-bold">Admin Dashboard</h1>
