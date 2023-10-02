@@ -49,6 +49,8 @@ hooks:
         curl -fs https://get.symfony.com/cloud/configurator | bash
         
         NODE_VERSION=18 symfony-build
+      
+        php bin/console asset-map:compile
 
     deploy: |
         set -x -e
