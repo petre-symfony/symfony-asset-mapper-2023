@@ -35,7 +35,9 @@ web:
             root: "public"
             expires: 1h
             passthru: "/index.php"
-
+            rules:
+              '^\/assets\/.*':
+                expires: 365d
 
 
 mounts:
