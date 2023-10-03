@@ -16,7 +16,7 @@
 return [
     'app' => [
         'path' => 'app.js',
-        'preload' => true,
+        'preload' => false,
     ],
     'lodash/camelCase' => [
         'url' => 'https://cdn.jsdelivr.net/npm/lodash@4.17.21/camelCase/+esm',
